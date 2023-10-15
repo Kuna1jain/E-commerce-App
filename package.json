@@ -7,12 +7,13 @@
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.10.15",
     "@mui/material": "^5.10.15",
-    "@reduxjs/toolkit": "^1.9.0",
-    "@stripe/stripe-js": "^1.44.1",
+    "@reduxjs/toolkit": "^1.9.6",
+    "@stripe/react-stripe-js": "^2.3.1",
+    "@stripe/stripe-js": "^1.54.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.2.0",
+    "axios": "^1.5.0",
     "install": "^0.13.0",
     "npm": "^9.1.2",
     "react": "^18.0.0",
@@ -48,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
   }
 }
